@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node:*)",
+      "Bash(which node:*)",
+      "Bash(which brew 2>/dev/null && brew --version 2>/dev/null)",
+      "Bash(export PATH=\"/opt/homebrew/bin:/usr/local/bin:$PATH\" && npm create vite@latest . -- --template react 2>&1)",
+      "Bash(export PATH=\"/opt/homebrew/bin:/usr/local/bin:$PATH\" && npm install 2>&1)",
+      "Bash(export PATH=\"/opt/homebrew/bin:/usr/local/bin:$PATH\" && npx vite --host 2>&1)"
+    ]
+  }
+}
